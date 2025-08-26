@@ -1,0 +1,84 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    align-items: stretch;
+}
+
+h1 {
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+    background-color: lime;    
+}
+
+nav {
+    height: 100vh;
+    background-color: lightgray;
+}
+nav ul {
+    padding: 25px;
+    font-size: 25px;
+    list-style: none;
+}
+nav ul li {
+    line-height: 40px;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.card {
+    margin:100px auto;
+    display: flex;
+    flex-direction: column;
+}
+.card p {
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+.card input[type="text"] {
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 10px;
+    outline: none; 
+}
+.card input[type="button"] {
+    margin: 25px auto;
+    padding: 5px;
+    width: 120px;
+    font-size: 18px;
+    text-align: center;    
+    border-radius: 14px;    
+}
+.card input[type="button"]:hover {
+    cursor:pointer;
+}
+
+#show-answer {
+    background-color: plum;
+    border: 1px solid rgb(222, 130, 222);
+}
+#show-answer:hover {
+    background-color: rgb(222, 130, 222);
+}
+#next {
+    background-color:lime;
+    border: 1px solid rgb(7, 204, 7);
+}
+#next:hover {
+    background-color:rgb(7, 204, 7);
+}
+
+.answer {
+    height: 30px;
+    font-size: 18px;
+    color:green;
+}
