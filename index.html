@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smrt Vocabulary Practice</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+   
 </head>
 <body>
     
@@ -12,19 +14,34 @@
         <h1>Smrt Vocabulary Practice</h1>
     </header>
     <main>
-        <nav>
-            <ul>
+        <nav >
+            <ul id="units">
+            <!--
                 <li><a href="unit_01.html">Unit 01</a></li>
                 <li><a href="unit_02.html">Unit 02</a></li>
                 <li><a href="unit_03.html">Unit 03</a></li>
+            -->    
+                <li>Unit 01</li>
+                <li>Unit 02</li>
+                <li>Unit 03</li>
             </ul>
+               
         </nav>
+        <p class="msgStart">Coose Unit</p>
         <div class="card">
-            <p>хвороба</p>
-            <input type="text" id="word_eng">
+            <p class="word-ukr"></p>
+            <input type="text" id="word_eng" autocomplete="off">
             <p class="answer"></p>
-            <input type="button" id="show-answer" value="Show answer">
-            <input type="button" id="next" value="Next">
+            <div>
+                <input type="button" id="check-answer" value="Check">
+                <input type="button" id="show-answer" value="Show answer">  
+            </div>
+            
+            <input type="button" id="next" value="Next">            
+        </div>
+        <div class="msg">
+            <p class="result"></p>
+            <!--<input type="button" id="repeat" value = "Repeat">-->
         </div>
     </main>
     <footer></footer>

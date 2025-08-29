@@ -26,15 +26,24 @@ nav ul {
 }
 nav ul li {
     line-height: 40px;
+    color: black;
 }
-nav ul li a {
+nav ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+/*nav ul li a {
     color: black;
     text-decoration: none;
 }
-
+nav ul li a:hover {
+    
+}
+*/
 .card {
+    display: none;
     margin:100px auto;
-    display: flex;
+   /* display: flex;*/
     flex-direction: column;
 }
 .card p {
@@ -43,42 +52,108 @@ nav ul li a {
     text-align: center;
 }
 .card input[type="text"] {
+    margin: 0 auto;
     padding: 5px;
+    width: 260px;
     font-size: 20px;
     text-align: center;
     border: 1px solid grey;
     border-radius: 10px;
     outline: none; 
 }
-.card input[type="button"] {
+/*.card input[type="text"]:focus {
+    color: black;
+}*/
+.card div {
+    margin: 0 auto;
+}
+input[type="button"] {
     margin: 25px auto;
     padding: 5px;
-    width: 120px;
+    width: 130px;
     font-size: 18px;
     text-align: center;    
     border-radius: 14px;    
 }
-.card input[type="button"]:hover {
+input[type="button"]:hover {
     cursor:pointer;
 }
+input:disabled {
+    background-color: rgb(196, 195, 195);
+}
+#show-answer,
+#check-answer {
+    background-color: lightgray;
+    border: 1px solid rgb(196, 195, 195);
+}
+#show-answer:hover,
+#check-answer:hover {
+    background-color: rgb(196, 195, 195);
+}
 
-#show-answer {
+ 
+#next {
+    background-color:lime;
+    border: 1px solid rgb(7, 204, 7);
+}
+#next:hover {
+    background-color: rgb(7, 204, 7);
+}
+
+/*#show-answer {
     background-color: plum;
     border: 1px solid rgb(222, 130, 222);
 }
 #show-answer:hover {
     background-color: rgb(222, 130, 222);
 }
-#next {
+
+#check-answer {
     background-color:lime;
     border: 1px solid rgb(7, 204, 7);
 }
-#next:hover {
+#check-answer:hover {
     background-color:rgb(7, 204, 7);
 }
-
+#next {
+    background-color:rgb(0, 140, 255);
+    border: 1px solid rgb(3, 116, 208);
+}
+#next:hover {
+    background-color:rgb(3, 116, 208);
+}
+*/
 .answer {
     height: 30px;
     font-size: 18px;
     color:green;
+}
+.msgStart {
+    margin: auto;
+    font-size: 30px;
+}
+.msg {
+    display: none;
+    margin: 11% auto;
+    flex-direction: column;
+}
+.result {
+    font-size: 30px;
+    text-align: center;
+}
+.error {
+    color: red;
+}
+.correct {
+    color: green;
+}
+/*  -------------------------- js style ----------------------------------*/
+.active {
+    font-weight: bold;
+}
+.hidden {
+    display: none;
+}
+.visible {
+    display: flex;
 }
