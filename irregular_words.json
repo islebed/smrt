@@ -1,0 +1,1341 @@
+[
+  {
+    "word": "залишатися вірним / дотримуватися / слідувати",
+    "form1": "abide",
+    "form2": "abode/abided",
+    "form3": "abidden/abided"
+  },
+  {
+    "word": "виникати / підніматися",
+    "form1": "arise",
+    "form2": "arose",
+    "form3": "arisen"
+  },
+  {
+    "word": "будити / прокидатися (часто використовується для емоційного або метафоричного пробудження)",
+    "form1": "awake",
+    "form2": "awoke",
+    "form3": "awoken"
+  },
+  {
+    "word": "опуститися морально чи в релігійній практиці / повернутися до гіршого стану / відступатися",
+    "form1": "backslid",
+    "form2": "backslid",
+    "form3": "backslid"
+  },
+  {
+    "word": "бути",
+    "form1": "be",
+    "form2": "was/were",
+    "form3": "been"
+  },
+  
+  {
+    "word": "народжувати",
+    "form1": "bear",
+    "form2": "bore",
+    "form3": "born"
+  },
+  {
+    "word": "носити / переносити / терпіти, виносити (тяжкість, біль) / народжувати (актив)",
+    "form1": "bear",
+    "form2": "bore",
+    "form3": "borne"
+  },
+  {
+    "word": "(по)бити, перемагати",
+    "form1": "beat",
+    "form2": "beat",
+    "form3": "beaten"
+  },
+  {
+    "word": "ставати",
+    "form1": "become",
+    "form2": "became",
+    "form3": "become"
+  },
+  {
+    "word": "траплятися, випадати на долю",
+    "form1": "befall",
+    "form2": "befell",
+    "form3": "befallen"
+  },
+  {
+    "word": "починати",
+    "form1": "begin",
+    "form2": "began",
+    "form3": "begun"
+  },
+  {
+    "word": "згинати(ся)",
+    "form1": "bend",
+    "form2": "bent",
+    "form3": "bent"
+  },
+  {
+    "word": "скорбіти, оплакувати, позбавляти, забирати (бути позбавленим близької людини через тривалу відсутність, особливо через її смерть)",
+    "form1": "bereave",
+    "form2": "bereft/bereaved",
+    "form3": "bereft/bereaved"
+  },
+  {
+    "word": "благати (дуже формально, в літературі, в промовах)",
+    "form1": "beseech",
+    "form2": "besought/beseeched",
+    "form3": "besought/beseeched"
+  },
+  {
+    "word": "постійно турбувати або загрожувати / бути покритим або всіяним чимось (арх.)",
+    "form1": "beset",
+    "form2": "beset",
+    "form3": "beset"
+  },
+  {
+    "word": "натякати, бути свідченням чогось / на замовлення",
+    "form1": "bespeak",
+    "form2": "bespoke",
+    "form3": "bespoken"
+  },
+  {
+    "word": "битися от заклад, робити ставку",
+    "form1": "bet",
+    "form2": "bet",
+    "form3": "bet"
+  },
+  {
+    "word": "ставка, пропонувати ціну",
+    "form1": "bid",
+    "form2": "bid",
+    "form3": "bid"
+  },
+  {
+    "word": "зв'язувати",
+    "form1": "bind",
+    "form2": "bound",
+    "form3": "bound"
+  },
+  {
+    "word": "кусати",
+    "form1": "bite",
+    "form2": "bit",
+    "form3": "bitten"
+  },
+  {
+    "word": "кровоточити",
+    "form1": "bleed",
+    "form2": "bled",
+    "form3": "bled"
+  },
+  {
+    "word": "дути, дмухати",
+    "form1": "blow",
+    "form2": "blew",
+    "form3": "blown"
+  },
+  {
+    "word": "ламати",
+    "form1": "break",
+    "form2": "broke",
+    "form3": "broken"
+  },
+  {
+    "word": "плодитися, розмножуватися",
+    "form1": "breed",
+    "form2": "bred",
+    "form3": "bred"
+  },
+  {
+    "word": "приносити",
+    "form1": "bring",
+    "form2": "brought",
+    "form3": "brought"
+  },
+  {
+    "word": "транслювати, передавати",
+    "form1": "broadcast",
+    "form2": "broadcast",
+    "form3": "broadcast"
+  },
+  {
+    "word": "будувати",
+    "form1": "build",
+    "form2": "built",
+    "form3": "built"
+  },
+  {
+    "word": "горіти, палити",
+    "form1": "burn",
+    "form2": "burnt",
+    "form3": "burnt"
+  },
+  {
+    "word": "вибухати / лопатися",
+    "form1": "burst",
+    "form2": "burst",
+    "form3": "burst"
+  },
+  {
+    "word": "купувати",
+    "form1": "buy",
+    "form2": "bought",
+    "form3": "bought"
+  },
+  {
+    "word": "ловити",
+    "form1": "catch",
+    "form2": "caught",
+    "form3": "caught"
+  },
+  {
+    "word": "вибирати, обирати",
+    "form1": "choose",
+    "form2": "chose",
+    "form3": "chosen"
+  },
+  {
+    "word": "чіплятися, прилипати",
+    "form1": "cling",
+    "form2": "clung",
+    "form3": "clung"
+  },
+  {
+    "word": "приходити, приїжджати",
+    "form1": "come",
+    "form2": "came",
+    "form3": "come"
+  },
+  {
+    "word": "коштувати",
+    "form1": "cost",
+    "form2": "cost",
+    "form3": "cost"
+  },
+  {
+    "word": "лазити, підкрадатися",
+    "form1": "creep",
+    "form2": "crept",
+    "form3": "crept"
+  },
+  {
+    "word": "різати, розрізати",
+    "form1": "cut",
+    "form2": "cut",
+    "form3": "cut"
+  },
+  {
+    "word": "схрещувати",
+    "form1": "crossbreed",
+    "form2": "crossbred",
+    "form3": "crossbred"
+  },
+  {
+    "word": "мати справу / займатися",
+    "form1": "deal",
+    "form2": "dealt",
+    "form3": "dealt"
+  },
+  {
+    "word": "копати",
+    "form1": "dig",
+    "form2": "dug",
+    "form3": "dug"
+  },
+  {
+    "word": "робити, виконувати",
+    "form1": "do",
+    "form2": "did",
+    "form3": "done"
+  },
+  {
+    "word": "малювати (олівцем), креслити",
+    "form1": "draw",
+    "form2": "drew",
+    "form3": "drawn"
+  },
+  {
+    "word": "мріяти, наснитися",
+    "form1": "dream",
+    "form2": "dreamt",
+    "form3": "dreamt"
+  },
+  {
+    "word": "пити",
+    "form1": "drink",
+    "form2": "drank",
+    "form3": "drunk"
+  },
+  {
+    "word": "водити (машину)",
+    "form1": "drive",
+    "form2": "drove",
+    "form3": "driven"
+  },
+  {
+    "word": "мешкати",
+    "form1": "dwell",
+    "form2": "dwelt",
+    "form3": "dwelt"
+  },
+  {
+    "word": "їсти",
+    "form1": "eat",
+    "form2": "ate",
+    "form3": "eaten"
+  },
+  {
+    "word": "падати",
+    "form1": "fall",
+    "form2": "fell",
+    "form3": "fallen"
+  },
+  {
+    "word": "годувати",
+    "form1": "feed",
+    "form2": "fed",
+    "form3": "fed"
+  },
+  {
+    "word": "відчувати",
+    "form1": "feel",
+    "form2": "felt",
+    "form3": "felt"
+  },
+  {
+    "word": "боротися, битися",
+    "form1": "fight",
+    "form2": "fought",
+    "form3": "fought"
+  },
+  {
+    "word": "знаходити",
+    "form1": "find",
+    "form2": "found",
+    "form3": "found"
+  },
+  {
+    "word": "підходити / пристосовувати щось до певного розміру чи форми",
+    "form1": "fit",
+    "form2": "fit/fitted",
+    "form3": "fit/fitted"
+  },
+  {
+    "word": "тікати",
+    "form1": "flee",
+    "form2": "fled",
+    "form3": "fled"
+  },
+  {
+    "word": "кидати, шпурляти (емоційно, у розпачі)",
+    "form1": "fling",
+    "form2": "flung",
+    "form3": "flung"
+  },
+  {
+    "word": "літати",
+    "form1": "fly",
+    "form2": "flew",
+    "form3": "flown"
+  },
+  {
+    "word": "утримуватися",
+    "form1": "forbear",
+    "form2": "forbore",
+    "form3": "forborne"
+  },
+  {
+    "word": "забороняти",
+    "form1": "forbid",
+    "form2": "forbade",
+    "form3": "forbidden"
+  },
+  {
+    "word": "забувати",
+    "form1": "forget",
+    "form2": "forgot",
+    "form3": "forgotten"
+  },
+  {
+    "word": "пробачити",
+    "form1": "forgive",
+    "form2": "forgave",
+    "form3": "forgiven"
+  },
+  {
+    "word": "відмовитися від чогось приємного чи цінного",
+    "form1": "forgo",
+    "form2": "forwent",
+    "form3": "forgone"
+  },
+  {
+    "word": "залишати, покидати, відмовлятися",
+    "form1": "forsake",
+    "form2": "forsook",
+    "form3": "forsaken"
+  },
+  {
+    "word": "замерзати, заморожувати",
+    "form1": "freeze",
+    "form2": "froze",
+    "form3": "frozen"
+  },
+  {
+    "word": "отримувати, діставати, ставати",
+    "form1": "get",
+    "form2": "got",
+    "form3": "got"
+  },
+  {
+    "word": "дававти",
+    "form1": "give",
+    "form2": "gave",
+    "form3": "given"
+  },
+  {
+    "word": "позолотити",
+    "form1": "gild",
+    "form2": "gilt",
+    "form3": "gilt"
+  },
+  {
+    "word": "йти, їхати",
+    "form1": "go",
+    "form2": "went",
+    "form3": "gone"
+  },
+  {
+    "word": "молоти, розтирати",
+    "form1": "grind",
+    "form2": "ground",
+    "form3": "ground"
+  },
+  {
+    "word": "рости, вирощувати",
+    "form1": "grow",
+    "form2": "grew",
+    "form3": "grown"
+  },
+  {
+    "word": "вішати, висіти",
+    "form1": "hang",
+    "form2": "hung/hanged",
+    "form3": "hung/hanged"
+  },
+  {
+    "word": "мати",
+    "form1": "have",
+    "form2": "had",
+    "form3": "had"
+  },
+  {
+    "word": "чути",
+    "form1": "hear",
+    "form2": "heard",
+    "form3": "heard"
+  },
+  {
+    "word": "ховати(ся)",
+    "form1": "hide",
+    "form2": "hid",
+    "form3": "hidden"
+  },
+  {
+    "word": "вдарити",
+    "form1": "hit",
+    "form2": "hit",
+    "form3": "hit"
+  },
+  {
+    "word": "тримати",
+    "form1": "hold",
+    "form2": "held",
+    "form3": "held"
+  },
+  {
+    "word": "боліти / завдати болю",
+    "form1": "hurt",
+    "form2": "hurt",
+    "form3": "hurt"
+  },
+  {
+    "word": "вводити дані в комп'ютер",
+    "form1": "input",
+    "form2": "input",
+    "form3": "input"
+  },
+  {
+    "word": "інкрустувати",
+    "form1": "inlay",
+    "form2": "inlaid",
+    "form3": "inlaid"
+  },
+  {
+    "word": "зберегти, тримати",
+    "form1": "keep",
+    "form2": "kept",
+    "form3": "kept"
+  },
+  {
+    "word": "ставати на коліна",
+    "form1": "kneel",
+    "form2": "knelt",
+    "form3": "knelt"
+  },
+  {
+    "word": "в'язати",
+    "form1": "knit",
+    "form2": "knit/knitted",
+    "form3": "knit/knitted"
+  },
+  {
+    "word": "знати",
+    "form1": "know",
+    "form2": "knew",
+    "form3": "known"
+  },
+  {
+    "word": "класти / лежати",
+    "form1": "lay",
+    "form2": "laid",
+    "form3": "laid"
+  },
+  {
+    "word": "вести / керувати, очолювати",
+    "form1": "lead",
+    "form2": "led",
+    "form3": "led"
+  },
+  {
+    "word": "спиратися, притулятися",
+    "form1": "lean",
+    "form2": "leant/leaned",
+    "form3": "leant/leaned"
+  },
+  {
+    "word": "стрибати",
+    "form1": "leap",
+    "form2": "leapt/leaped",
+    "form3": "leapt/leaped"
+  },
+  {
+    "word": "навчатися",
+    "form1": "learn",
+    "form2": "learnt/learned",
+    "form3": "learnt/learned"
+  },
+  {
+    "word": "піти, залишити, кидати",
+    "form1": "leave",
+    "form2": "left",
+    "form3": "left"
+  },
+  {
+    "word": "позичати (комусь)",
+    "form1": "lend",
+    "form2": "lent",
+    "form3": "lent"
+  },
+  {
+    "word": "дозволяти",
+    "form1": "let",
+    "form2": "let",
+    "form3": "let"
+  },
+  {
+    "word": "лежати",
+    "form1": "lie",
+    "form2": "lay",
+    "form3": "lain"
+  },
+  {
+    "word": "брехати",
+    "form1": "lie",
+    "form2": "lied",
+    "form3": "lied"
+  },
+  {
+    "word": "освітлювати, світити",
+    "form1": "light",
+    "form2": "lit/lighted",
+    "form3": "lit/lighted"
+  },
+  {
+    "word": "загубити",
+    "form1": "lose",
+    "form2": "lost",
+    "form3": "lost"
+  },
+  {
+    "word": "робити, виготовляти",
+    "form1": "make",
+    "form2": "made",
+    "form3": "made"
+  },
+  {
+    "word": "значити / матизі на увазі",
+    "form1": "mean",
+    "form2": "meant",
+    "form3": "meant"
+  },
+  {
+    "word": "зустрічати(ся) / знайомитися",
+    "form1": "meet",
+    "form2": "met",
+    "form3": "met"
+  },
+  {
+    "word": "покласти не на місце",
+    "form1": "mislay",
+    "form2": "mislaid",
+    "form3": "mislaid"
+  },
+  {
+    "word": "вводити в оману",
+    "form1": "mislead",
+    "form2": "misled",
+    "form3": "misled"
+  },
+  {
+    "word": "неправильно прочитати",
+    "form1": "misread",
+    "form2": "misread",
+    "form3": "misread"
+  },
+  {
+    "word": "розтринькувати (нецільове використання)",
+    "form1": "misspend",
+    "form2": "misspent",
+    "form3": "misspent"
+  },
+  {
+    "word": "помилятися",
+    "form1": "mistake",
+    "form2": "mistook",
+    "form3": "mistaken"
+  },
+  {
+    "word": "неправильно зрозуміти",
+    "form1": "misunderstand",
+    "form2": "misunderstood",
+    "form3": "misunderstood"
+  },
+  {
+    "word": "косити",
+    "form1": "mow",
+    "form2": "mowed",
+    "form3": "mown/mowed"
+  },
+  {
+    "word": "зводити баланс / відхилятися від норми / протидіяти (чомусь), за рахунок протилежної сили чи впливу",
+    "form1": "offset",
+    "form2": "offset",
+    "form3": "offset"
+  },
+  {
+    "word": "перебивати ставку/ціну",
+    "form1": "outbid",
+    "form2": "outbid",
+    "form3": "outbidden"
+  },
+  {
+    "word": "перевершити",
+    "form1": "outdo",
+    "form2": "outdid",
+    "form3": "outdone"
+  },
+  {
+    "word": "перерости / випередити в розвитку",
+    "form1": "outgrow",
+    "form2": "outgrew",
+    "form3": "outgrown"
+  },
+  {
+    "word": "випускати/виробляти (продукцію) / місце, звідки енергія чи інформація покидає систему",
+    "form1": "output",
+    "form2": "output",
+    "form3": "output"
+  },
+  {
+    "word": "вийти за межі / обігнати",
+    "form1": "outrun",
+    "form2": "outran",
+    "form3": "outrun"
+  },
+  {
+    "word": "перевершити продажі",
+    "form1": "outsell",
+    "form2": "outsold",
+    "form3": "outsold"
+  },
+  {
+    "word": "затьмарити",
+    "form1": "outshine",
+    "form2": "outshone",
+    "form3": "outshone"
+  },
+  {
+    "word": "перебивати ціну",
+    "form1": "overbid",
+    "form2": "overbid",
+    "form3": "overbid"
+  },
+  {
+    "word": "подолати, перебороти",
+    "form1": "overcome",
+    "form2": "overcame",
+    "form3": "overcome"
+  },
+  {
+    "word": "перестаратися / зайти надто далеко",
+    "form1": "overdo",
+    "form2": "overdid",
+    "form3": "overdone"
+  },
+  {
+    "word": "знімати гроші понад суму, що знаходиться на рахунку",
+    "form1": "overdraw",
+    "form2": "overdrew",
+    "form3": "overdrawn"
+  },
+  {
+    "word": "переїсти",
+    "form1": "overeat",
+    "form2": "overate",
+    "form3": "overeaten"
+  },
+  {
+    "word": "пролітати над (місцем чи територією) / пролітати далі (місця чи придмета)",
+    "form1": "overfly",
+    "form2": "overflew",
+    "form3": "overflown"
+  },
+  {
+    "word": "випадково почути, підслухати",
+    "form1": "overhear",
+    "form2": "overheard",
+    "form3": "overheard"
+  },
+  {
+    "word": "покривати / ставати більш помітним",
+    "form1": "overlay",
+    "form2": "overlaid",
+    "form3": "overlaid"
+  },
+  {
+    "word": "лежати зверху",
+    "form1": "overlie",
+    "form2": "overlay",
+    "form3": "overlain"
+  },
+  {
+    "word": "переплачувати",
+    "form1": "overpay",
+    "form2": "overpaid",
+    "form3": "overpaid"
+  },
+  {
+    "word": "відхилити або скасуати (думку, рішення) / перервати автоматичну дію, щоб перейти до ручного керування",
+    "form1": "override",
+    "form2": "overrode",
+    "form3": "overridden"
+  },
+  {
+    "word": "переповнювати / продовжувати працювати понад очікуваний або дозволений час або витрати",
+    "form1": "overrun",
+    "form2": "overran",
+    "form3": "overrun"
+  },
+  {
+    "word": "наглядати / контролювати особу чи роботу (офіційно)",
+    "form1": "oversee",
+    "form2": "oversaw",
+    "form3": "overseen"
+  },
+  {
+    "word": "продати більше, ніж є в наявності",
+    "form1": "oversell",
+    "form2": "oversold",
+    "form3": "oversold"
+  },
+  {
+    "word": "промахнутися",
+    "form1": "overshoot",
+    "form2": "overshot",
+    "form3": "overshot"
+  },
+  {
+    "word": "проспати, заспати",
+    "form1": "oversleep",
+    "form2": "overslept",
+    "form3": "overslept"
+  },
+  {
+    "word": "перевитрачати / витратити більше ніж доступно (заплановано)",
+    "form1": "overspend",
+    "form2": "overspent",
+    "form3": "overspent"
+  },
+  {
+    "word": "наздогнати та обігнати, рухаючись у тому ж напрямку",
+    "form1": "overtake",
+    "form2": "overtook",
+    "form3": "overtaken"
+  },
+  {
+    "word": "перекинути / скинути (на рос. свергнуть)",
+    "form1": "overthrow",
+    "form2": "overthrew",
+    "form3": "overthrown"
+  },
+  {
+    "word": "переписати (поверх іншого тексту) / писати занадто складно чи вигадливо  ",
+    "form1": "overwrite",
+    "form2": "overwrote",
+    "form3": "overwritten"
+  },
+  {
+    "word": "платити",
+    "form1": "pay",
+    "form2": "paid",
+    "form3": "paid"
+  },
+  {
+    "word": "передплата",
+    "form1": "prepay",
+    "form2": "prepaid",
+    "form3": "prepaid"
+  },
+  {
+    "word": "покласти",
+    "form1": "put",
+    "form2": "put",
+    "form3": "put"
+  },
+  {
+    "word": "кидати, покидати, залишати, звільнятися (з роботи, від шкідливої звички)",
+    "form1": "quit",
+    "form2": "quit",
+    "form3": "quit"
+  },
+  {
+    "word": "читати",
+    "form1": "read",
+    "form2": "read",
+    "form3": "read"
+  },
+  {
+    "word": "переробити (щоб покращити або виправити помилки)",
+    "form1": "redo",
+    "form2": "redid",
+    "form3": "redone"
+  },
+  {
+    "word": "переробити (зробити нову версію чогось, н-д пісні)",
+    "form1": "remake",
+    "form2": "remade",
+    "form3": "remade"
+  },
+  {
+    "word": "відплатити",
+    "form1": "repay",
+    "form2": "repaid",
+    "form3": "repaid"
+  },
+  {
+    "word": "звільняти, прибирати (небажану особу чи річ)",
+    "form1": "rid",
+    "form2": "rid",
+    "form3": "rid"
+  },
+  {
+    "word": "їхати верхи / їхати у транспорті",
+    "form1": "ride",
+    "form2": "rode",
+    "form3": "ridden"
+  },
+  {
+    "word": "дзвонити",
+    "form1": "ring",
+    "form2": "rang",
+    "form3": "rung"
+  },
+  {
+    "word": "зростати, вставати, підійматися",
+    "form1": "rise",
+    "form2": "rose",
+    "form3": "risen"
+  },
+  {
+    "word": "бігати",
+    "form1": "run",
+    "form2": "ran",
+    "form3": "run"
+  },
+  {
+    "word": "пиляти, випилювати",
+    "form1": "saw",
+    "form2": "sawed",
+    "form3": "sawn"
+  },
+  {
+    "word": "сказати, говорити",
+    "form1": "say",
+    "form2": "said",
+    "form3": "said"
+  },
+  {
+    "word": "бачити",
+    "form1": "see",
+    "form2": "saw",
+    "form3": "seen"
+  },
+  {
+    "word": "шукати (для абстрактних понять)",
+    "form1": "seek",
+    "form2": "sought",
+    "form3": "sought"
+  },
+  {
+    "word": "продавати",
+    "form1": "sell",
+    "form2": "sold",
+    "form3": "sold"
+  },
+  {
+    "word": "відправляти, відсилати",
+    "form1": "send",
+    "form2": "sent",
+    "form3": "sent"
+  },
+  {
+    "word": "встановлювати",
+    "form1": "set",
+    "form2": "set",
+    "form3": "set"
+  },
+  {
+    "word": "шити",
+    "form1": "sew",
+    "form2": "sewed",
+    "form3": "sewed/sewn"
+  },
+  {
+    "word": "трясти / тиснути руку",
+    "form1": "shake",
+    "form2": "shook",
+    "form3": "shaken"
+  },
+  {
+    "word": "скидувати, втрачати / линяти / проливати (сльози)",
+    "form1": "shed",
+    "form2": "shed",
+    "form3": "shed"
+  },
+  {
+    "word": "блищати, сяяти",
+    "form1": "shine",
+    "form2": "shone",
+    "form3": "shone"
+  },
+  {
+    "word": "стріляти",
+    "form1": "shoot",
+    "form2": "shot",
+    "form3": "shot"
+  },
+  {
+    "word": "показувати, демонструвати",
+    "form1": "show",
+    "form2": "showed",
+    "form3": "shown"
+  },
+  {
+    "word": "зменшуватися, зсідатися / відійти назад чи геть, особливо через страх чи огиду",
+    "form1": "shrink",
+    "form2": "shrank",
+    "form3": "shrunk"
+  },
+  {
+    "word": "закривати, зачиняти (різко чи несподівано)",
+    "form1": "shut",
+    "form2": "shut",
+    "form3": "shut"
+  },
+  {
+    "word": "співати",
+    "form1": "sing",
+    "form2": "sang",
+    "form3": "sung"
+  },
+  {
+    "word": "(за)тонути, топити (судно)",
+    "form1": "sink",
+    "form2": "sank",
+    "form3": "sunk"
+  },
+  {
+    "word": "сидіти",
+    "form1": "sit",
+    "form2": "sat",
+    "form3": "sat"
+  },
+  {
+    "word": "вбивати, винищувати",
+    "form1": "slay",
+    "form2": "slew",
+    "form3": "slain"
+  },
+  {
+    "word": "спати",
+    "form1": "sleep",
+    "form2": "slept",
+    "form3": "slept"
+  },
+  {
+    "word": "коовзати, прослизнути",
+    "form1": "slide",
+    "form2": "slid",
+    "form3": "slid"
+  },
+  {
+    "word": "кидати/метати з пращі",
+    "form1": "sling",
+    "form2": "slung",
+    "form3": "slung"
+  },
+  {
+    "word": "пахнути / нюхати",
+    "form1": "smell",
+    "form2": "smelt/smelled",
+    "form3": "smelt/smelled"
+  },
+  {
+    "word": "сильно вдарити (зі смертельними наслідками) / вбити",
+    "form1": "smite",
+    "form2": "smote",
+    "form3": "smitten"
+  },
+  {
+    "word": "сіяти",
+    "form1": "sow",
+    "form2": "sowed",
+    "form3": "sown"
+  },
+  {
+    "word": "говорити",
+    "form1": "speak",
+    "form2": "spoke",
+    "form3": "spoken"
+  },
+  {
+    "word": "перевищувати швидкість / пронестися",
+    "form1": "speed",
+    "form2": "sped",
+    "form3": "sped"
+  },
+  {
+    "word": "написати чи сказати слово по літерам",
+    "form1": "spell",
+    "form2": "spelt/spelled",
+    "form3": "spelt/spelled"
+  },
+  {
+    "word": "витрачати, проводити час",
+    "form1": "spend",
+    "form2": "spent",
+    "form3": "spent"
+  },
+  {
+    "word": "розлити, розсипати",
+    "form1": "spill",
+    "form2": "spilt/spilled",
+    "form3": "spilt/spilled"
+  },
+  {
+    "word": "крутити, кружляти",
+    "form1": "spin",
+    "form2": "spun",
+    "form3": "spun"
+  },
+  {
+    "word": "плювати",
+    "form1": "spit",
+    "form2": "spat/spit",
+    "form3": "spat/spit"
+  },
+  {
+    "word": "розколювати / розбивати",
+    "form1": "split",
+    "form2": "split",
+    "form3": "split"
+  },
+  {
+    "word": "псувати(ся), балувати",
+    "form1": "spoil",
+    "form2": "spoilt/spoiled",
+    "form3": "spoilt/spoiled"
+  },
+  {
+    "word": "поширювати / розмазувати",
+    "form1": "spread",
+    "form2": "spread",
+    "form3": "spread"
+  },
+  {
+    "word": "неочікувано стрибати / брати початок",
+    "form1": "spring",
+    "form2": "sprang",
+    "form3": "sprung"
+  },
+  {
+    "word": "стояти",
+    "form1": "stand",
+    "form2": "stood",
+    "form3": "stood"
+  },
+  {
+    "word": "вкрасти",
+    "form1": "steal",
+    "form2": "stole",
+    "form3": "stolen"
+  },
+  {
+    "word": "приклеїти / застрягти",
+    "form1": "stick",
+    "form2": "stuck",
+    "form3": "stuck"
+  },
+  {
+    "word": "жалити, кусати",
+    "form1": "sting",
+    "form2": "stung",
+    "form3": "stung"
+  },
+  {
+    "word": "смердіти",
+    "form1": "stink",
+    "form2": "stank",
+    "form3": "stunk"
+  },
+  {
+    "word": "вдарити, нанести удар",
+    "form1": "strike",
+    "form2": "struck",
+    "form3": "struck/stricken"
+  },
+  {
+    "word": "заприсягатися",
+    "form1": "swear",
+    "form2": "swore",
+    "form3": "sworn"
+  },
+  {
+    "word": "підмітати",
+    "form1": "sweep",
+    "form2": "swept",
+    "form3": "swept"
+  },
+  {
+    "word": "набрякати",
+    "form1": "swell",
+    "form2": "swelled",
+    "form3": "swollen"
+  },
+  {
+    "word": "плавати",
+    "form1": "swim",
+    "form2": "swam",
+    "form3": "swum"
+  },
+  {
+    "word": "гойдати, розмахувати",
+    "form1": "swing",
+    "form2": "swung",
+    "form3": "swung"
+  },
+  {
+    "word": "брати, забирати",
+    "form1": "take",
+    "form2": "took",
+    "form3": "taken"
+  },
+  {
+    "word": "навчати, викладати",
+    "form1": "teach",
+    "form2": "taught",
+    "form3": "taught"
+  },
+  {
+    "word": "розірвати",
+    "form1": "tear",
+    "form2": "tore",
+    "form3": "torn"
+  },
+  {
+    "word": "розказувати, сказати",
+    "form1": "tell",
+    "form2": "told",
+    "form3": "told"
+  },
+  {
+    "word": "думати",
+    "form1": "think",
+    "form2": "thought",
+    "form3": "thought"
+  },
+  {
+    "word": "кидати (н-д, м'яч)",
+    "form1": "throw",
+    "form2": "threw",
+    "form3": "thrown"
+  },
+  {
+    "word": "штовхати",
+    "form1": "thrust",
+    "form2": "thrust",
+    "form3": "thrust"
+  },
+  {
+    "word": "ступати, розтоптати",
+    "form1": "tread",
+    "form2": "trod",
+    "form3": "trodden"
+  },
+  {
+    "word": "розгинати, випрямляти",
+    "form1": "unbend",
+    "form2": "unbent",
+    "form3": "unbent"
+  },
+  {
+    "word": "збивати ціну",
+    "form1": "underbid",
+    "form2": "underbid",
+    "form3": "underbid"
+  },
+  {
+    "word": "підрізувати",
+    "form1": "undercut",
+    "form2": "undercut",
+    "form3": "undercut"
+  },
+  {
+    "word": "недоробляти",
+    "form1": "underdo",
+    "form2": "underdid",
+    "form3": "underdone"
+  },
+  {
+    "word": "недогодовувати",
+    "form1": "underfeed",
+    "form2": "underfed",
+    "form3": "underfed"
+  },
+  {
+    "word": "витерпіти, пройти через щось неприємне",
+    "form1": "undergo",
+    "form2": "underwent",
+    "form3": "undergone"
+  },
+  {
+    "word": "бути основою чогось / лежати або розташовуватись під чимось",
+    "form1": "underlie",
+    "form2": "underlay",
+    "form3": "underlain"
+  },
+  {
+    "word": "недоплатити",
+    "form1": "underpay",
+    "form2": "underpaid",
+    "form3": "underpaid"
+  },
+  {
+    "word": "продавати дешевше",
+    "form1": "undersell",
+    "form2": "undersold",
+    "form3": "undersold"
+  },
+  {
+    "word": "розуміти",
+    "form1": "understand",
+    "form2": "understood",
+    "form3": "understood"
+  },
+  {
+    "word": "брати на себе",
+    "form1": "undertake",
+    "form2": "undertook",
+    "form3": "undertaken"
+  },
+  {
+    "word": "підписатися / гарантувати",
+    "form1": "underwrite",
+    "form2": "underwrote",
+    "form3": "underwritten"
+  },
+  {
+    "word": "скасувати, анулювати",
+    "form1": "undo",
+    "form2": "undid",
+    "form3": "undone"
+  },
+  {
+    "word": "відучитися, розучитися",
+    "form1": "unlearn",
+    "form2": "unlearnt",
+    "form3": "unlearnt"
+  },
+  {
+    "word": "засмучувати",
+    "form1": "upset",
+    "form2": "upset",
+    "form3": "upset"
+  },
+  {
+    "word": "будити / прокидатися",
+    "form1": "wake",
+    "form2": "woke",
+    "form3": "woken"
+  },
+  {
+    "word": "носити (одяг)",
+    "form1": "wear",
+    "form2": "wore",
+    "form3": "worn"
+  },
+  {
+    "word": "ткати / заплітати",
+    "form1": "weave",
+    "form2": "wove",
+    "form3": "woven"
+  },
+  {
+    "word": "одружуватися (більш формально, відносно церемонії",
+    "form1": "wed",
+    "form2": "wed",
+    "form3": "wed"
+  },
+  {
+    "word": "плакати, ридати, рюмсати",
+    "form1": "weep",
+    "form2": "wept",
+    "form3": "wept"
+  },
+  {
+    "word": "вигравати, перемагати",
+    "form1": "win",
+    "form2": "won",
+    "form3": "won"
+  },
+  {
+    "word": "віджимати, скручувати",
+    "form1": "wring",
+    "form2": "wrung",
+    "form3": "wrung"
+  },
+  {
+    "word": "писати",
+    "form1": "write",
+    "form2": "wrote",
+    "form3": "written"
+  }
+]
