@@ -1,23 +1,10 @@
 
 document.addEventListener('DOMContentLoaded', () =>{   
-/*const wordsUnit01 = {
-    "ache": "біль (н-д, голова)",
-    "active": "активний",
-    "affect": "вплив",
-    "allergic": "алергічний",
-    "allergy": "алергія",
-    "aspirin": "аспірин",
-    "backache": "біль у спині",
-    "band-aid": "пластир",
-    "bandage": "пов'язка",
-    "bleed": "кровотеча",
-    "catch": "ловити"
-  }
-*/
+
 function setActiveMenuItem (event) {
            
 
-    console.log(event.target.textContent);
+   // console.log(event.target.textContent);
     let activeItem = document.querySelector('.active');
     if (activeItem) activeItem.classList.remove('active');
     event.target.classList.add('active');
@@ -25,7 +12,8 @@ function setActiveMenuItem (event) {
 }
 
 function selectUnit (event) {
-    let unitName = document.querySelector('.active').textContent.replaceAll(' ', '');
+    console.log("select unit");
+    let unitName = document.querySelector('.active').getAttribute('name');
     console.log('unitName =', unitName);
     return unitName;
 
@@ -39,54 +27,61 @@ function shuffleArray(array) {
     return array;
   }
 
-function fillForm(count){
-
-    //console.log('======= globalWordList: ', wordList);
-   // console.log('shuffledKeys : ', shuffledKeys);
-    document.querySelector('.msgStart').classList.add('hidden');
+function fillFormWords(count){
     document.querySelector('.msg').classList.remove('visible');
     document.querySelector('.answer').textContent = '';
-    //console.log('shuffledKeys[count]: ', shuffledKeys[count]);
-    //console.log('wordList[shuffledKeys[count]]: ', wordList[shuffledKeys[count]]);
     let word_ukr = wordList[shuffledKeys[count]];
     let answer = shuffledKeys[count];
-    //console.log('word_ukr: ', word_ukr);
-   // console.log('answer: ', answer);
     document.querySelector('.word-ukr').textContent = word_ukr;
     document.querySelector('#word_eng').name = answer;
     document.querySelector('.card').classList.add('visible');
+    
+
+    
 }
+
+function addRepeatMarker() {
+    for (i=0; i<wordList.length; i++) {
+        wordList[i].repeat = true;
+    }
+}
+
 
 let count;
 let wordList;
 let shuffledKeys;
 let wordsQuantity;
 let countCorrect;
-function startPractice(list){
+function startPractice(list, unitName){
     countCorrect = 0;
     wordList = list;
-
-   // console.log('practice ', wordList);
+    addRepeatMarker();
+    console.log('type of wordlist = ', typeof(wordList));
     const keys = Object.keys(wordList);
-   // console.log('keys :', keys);
+    console.log('keys = ',keys);
     shuffledKeys = shuffleArray(keys);
     wordsQuantity = shuffledKeys.length;
-    //console.log('shuffledKeys : ', shuffledKeys);
-    // Перебираем перемешанные ключи
- /*   for (const key of shuffledKeys) {
-        console.log(`Ключ: ${key}, Значение: ${wordList[key]}`);
-
+    console.log('wordsQuantity = ', wordsQuantity);
+    document.querySelector('.msgStart').classList.add('hidden');
+    document.querySelector('.card').classList.add('visible');
+    if (unitName == "irregular") {
+        /// можно ли здесь использовать тоггл?
+        document.querySelector('.words').classList.add('hidden');
+        document.querySelector('.irregular_words').classList.remove('hidden');
+        console.log('fill__irreg');
+        console.log('count_before fillFormIrreg - ', count);
+        fillFormIrregular(count);
+    } else {
+        document.querySelector('.irregular_words').classList.add('hidden');
+        document.querySelector('.words').classList.remove('hidden');
+      console.log('fill  __ words');
+        fillFormWords(count); 
     }
     
-    wordCheck(wordList, shuffledKeys);    */
-    
-    
-   
-    fillForm(count);
-
 }
 
-function resetInput() {
+function resetFormWords() {
+    document.querySelector('.word-ukr').textContent = ""; // не работает?!!!!!
     let elem = document.getElementById('word_eng');
     elem.disabled = false;
     elem.className = '';
@@ -96,30 +91,30 @@ function resetInput() {
 }
 
 
-
 function wordsPractice() {
     document.querySelector('#units').addEventListener('click', event => {    
         if (event.target.tagName === 'LI') {
             count = 0;
-            resetInput();
             setActiveMenuItem (event);
             let unitName = selectUnit (event);
+            if (unitName == "irregular") {
+                resetFormIrregular();
+            } else {
+                resetFormWords();  
+            }
             let jsonName = unitName + '_words.json';
 
             fetch(jsonName)
                 .then(response => response.json())
                 .then(wordList => {                
                     console.log('wordList = ', wordList);
-                    startPractice(wordList);        
+                    startPractice(wordList, unitName);        
                 })
                 .catch(error => {
                     console.error('Ошибка при загрузке JSON: ', error);
-            }); 
-        
-        }
-           
-    });     
-    
+            });  
+        }           
+    });         
 }
 
 function checkAnswer () {
@@ -127,21 +122,17 @@ function checkAnswer () {
     elem.classList.add('checked');
     let word = elem.value;
     let answer = elem.name;
-    console.log('word = ', word);
-    console.log('answer = ', answer);
     if (word === answer) {
-        //console.log("correct");
         countCorrect++;
-        console.log('countCorrect = ', countCorrect);
         elem.classList.remove('error');
         elem.classList.add('correct');
         document.getElementById('next').focus();
     } else {
         elem.classList.remove('correct');
         elem.classList.add('error');
-        //console.log("incorrect");
     }
 }
+
 
 
   //  setActiveMenuItem ();
@@ -154,50 +145,32 @@ function checkAnswer () {
         document.querySelector('.answer').textContent = answer;
     });
 
+    
+
     document.querySelector('#next').addEventListener('click', function() {
-        //console.log('count = ', count);
-        //console.log('wordList = ', shuffledKeys);
-       // console.log('length = ', shuffledKeys.length);
         let elem = document.getElementById('word_eng');
-        if (!elem.classList.contains('checked')) checkAnswer();
-        resetInput();
+        if (!elem.classList.contains('checked')) {
+            checkAnswer()
+        };
+        resetFormWords();
         
         if (count < wordsQuantity-1) {
             count++;
             console.log('count+ = ', count);
-            fillForm(count);
+            fillFormWords(count);
         }
         else {
             document.querySelector('.card').classList.remove('visible');
             document.querySelector('.msg').classList.add('visible');
             let result = Math.round(countCorrect*100/wordsQuantity);
             document.querySelector('.result' ).innerHTML = "Result: <br>"+result+"% correct";
-            //document.querySelector('.card').innerHTML 
         }
     });
-
-    /*document.querySelector('.repeat').addEventListener('click', wordsPractice());
-
-    document.getElementById('word_eng').addEventListener('blur', event => {
-        console.log('value = ', event.target.value);
-        let word =  event.target.value;
-        let answer = event.target.name;
-        console.log('word = ', word);
-        console.log('answer = ', answer);
-        if (word === answer) {
-            console.log("correct");
-            event.target.classList.remove('error');
-            event.target.classList.add('correct');
-        } else {
-            event.target.classList.remove('correct');
-            event.target.classList.add('error');
-            console.log("incorrect");
-        }
-    }); */
-   
     document.getElementById('check-answer').addEventListener('click', function (){
         checkAnswer();
     });
+
+    
 
     document.getElementById('word_eng').addEventListener('focus', event => {
         event.target.className = '';
@@ -208,6 +181,139 @@ function checkAnswer () {
             document.getElementById('check-answer').focus();
         }
     });
+
+    // IRREGULAR VERBS
+
+    function fillFormIrregular(count){
+        console.log('count-irreg = ', count);
+        document.querySelector('.msg').classList.remove('visible');
+        document.querySelector('.irregular_words p').textContent = wordList[shuffledKeys[count]].word;
+        document.getElementById('word-eng-f1').name = wordList[shuffledKeys[count]].form1;
+        document.getElementById('word-eng-f2').name = wordList[shuffledKeys[count]].form2;
+        document.getElementById('word-eng-f3').name = wordList[shuffledKeys[count]].form3;
+        document.getElementById('word-eng-f1').focus();
+
+    }
+
+   function checkAnswerIrregular(){
+        let elem1 = document.getElementById('word-eng-f1');
+        let elem2 = document.getElementById('word-eng-f2');
+        let elem3 = document.getElementById('word-eng-f3');
+        elem1.className = '';
+        elem2.className = '';
+        elem3.className = '';
+        if (elem1.name != elem1.value) {
+        
+            elem1.classList.add('error');
+        } else {
+            
+            elem1.classList.add('correct');
+        };
+        if (elem2.name != elem2.value) {
+            
+            elem2.classList.add('error')
+        } else {
+            
+            elem2.classList.add('correct');
+        
+        }; 
+        if (elem3.name != elem3.value) {
+            
+            elem3.classList.add('error')
+        } else {
+            
+            elem3.classList.add('correct');
+        };
+        elem1.classList.add('checked');
+        elem2.classList.add('checked');
+        elem3.classList.add('checked');
+        if (elem1.classList.contains('correct') & elem2.classList.contains('correct') & elem3.classList.contains('correct')) {
+            document.getElementById('next-irregular').focus();
+        }
+
+    }
+    /// сделать один обработчик
+    document.getElementById('word-eng-f1').addEventListener('keydown', event =>{
+        if (event.key === 'Enter') {
+            document.getElementById('word-eng-f2').focus();
+        }
+    });
+    document.getElementById('word-eng-f2').addEventListener('keydown', event =>{
+        if (event.key === 'Enter') {
+            document.getElementById('word-eng-f3').focus();
+        }
+    });
+    document.getElementById('word-eng-f3').addEventListener('keydown', event =>{
+        if (event.key === 'Enter') {
+            document.getElementById('check-answer-irregular').focus();
+        }
+    });
+
+    document.getElementById('check-answer-irregular').addEventListener('click', function (){
+        checkAnswerIrregular();
+    });
+    document.getElementById('next-irregular').addEventListener('click', function(){
+        
+        if (!document.getElementById('word-eng-f1').classList.contains('checked')){
+            checkAnswerIrregular();
+        }
+        // переписать через foreach?
+        let form1 = document.getElementById('word-eng-f1');
+        let form2 = document.getElementById('word-eng-f2');
+        let form3 = document.getElementById('word-eng-f3');
+        if (form1.classList.contains('correct') & form2.classList.contains('correct') & form3.classList.contains('correct')){
+            countCorrect++;
+            console.log('countCorrect = ', countCorrect);
+        }
+        resetFormIrregular();
+        
+        if (count <wordsQuantity-1) {
+            count++;
+            console.log('count_irreg = ', count);
+            fillFormIrregular(count);
+        } else {
+            document.querySelector('.card').classList.remove('visible');
+            document.querySelector('.msg').classList.add('visible');
+            let result = Math.round(countCorrect*100/wordsQuantity);
+            document.querySelector('.result' ).innerHTML = "Result: <br>"+result+"% correct";
+        }
+    });
+
+
+    document.querySelector('#show-answer-irregular').addEventListener('click', function(){
+        let form1 = document.getElementById('word-eng-f1').name;
+        let form2 = document.getElementById('word-eng-f2').name;
+        let form3 = document.getElementById('word-eng-f3').name;
+
+        document.querySelector('label[for = "word-eng-f1"]').textContent = form1;
+        document.querySelector('label[for = "word-eng-f2"]').textContent = form2;
+        document.querySelector('label[for = "word-eng-f3"]').textContent = form3;   
+        let itemsInput = document.querySelectorAll('input[type = "text"]');
+        itemsInput.forEach(itemsInput => {
+            itemsInput.disabled = true;
+        });
+        document.getElementById('next-irregular').focus();
+
+
+    });
+
+    function resetFormIrregular(){
+        let itemsInput = document.querySelectorAll('.irregular_words input[type="text"]');
+        itemsInput.forEach(itemsInput => {
+            itemsInput.disabled = false;
+            itemsInput.textContent = "";
+            itemsInput.className = '';
+            itemsInput.name = '';
+            itemsInput.value = '';
+        });
+        itemsInput[0].focus();
+
+        let itemsLabel = document.querySelectorAll('label');
+        itemsLabel.forEach(itemsLabel => {
+            itemsLabel.textContent = "";
+        })
+    }
+
 });
 
 

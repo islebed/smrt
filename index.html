@@ -16,29 +16,57 @@
     <main>
         <nav >
             <ul id="units">
-            <!--
-                <li><a href="unit_01.html">Unit 01</a></li>
-                <li><a href="unit_02.html">Unit 02</a></li>
-                <li><a href="unit_03.html">Unit 03</a></li>
-            -->    
-                <li>Unit 01</li>
-                <li>Unit 02</li>
-                <li>Unit 03</li>
-                <li>Unit 04</li>
+                <li name = "irregular" >Irregular Verbs</li>
+                <li name = "unit01">Unit 01 - Health & Body</li>
+                <li name = "unit02">Unit 02 - Housing</li>
+                <li name = "unit03">Unit 03 - Forces of Nature</li>
+                <li name = "unit04">Unit 04 - Literature</li>
+                <li name = "unit05">Unit 05 - Fashion</li>
+                <li name = "unit06">Unit 06 - Sports</li>
+                <li name = "unit07">Unit 07 - Art & Music</li>
+                <li name = "unit08">Unit 08 - The Environment</li>
+                <li name = "unit09">Unit 09 - The Weather</li>
+                <li name = "unit10">Unit 10 - Travel</li>
+                <li name = "unit11">Unit 11 - Celebrities</li>
+                <li name = "unit12">Unit 12 - Space</li>
+                <li name = "my">My</li>
+                <li name = "phrasal">Phrasal Verbs</li>
+                <!-- 
+                    @YasEnglis102 The Great Journey (Level 6)
+                    https://youtu.be/QdVAlq7urVQ?si=n1Vxd7ke3NsdLDi4
+                -->
+                <li name = "grreader1">Graded reader 1</li> 
+                <li name = "unit001">Unit 01 Family Life</li> 
             </ul>
                
         </nav>
-        <p class="msgStart">Coose Unit</p>
+        <p class="msgStart">Choose Unit</p>
         <div class="card">
-            <p class="word-ukr"></p>
-            <input type="text" id="word_eng" autocomplete="off">
-            <p class="answer"></p>
-            <div>
-                <input type="button" id="check-answer" value="Check">
-                <input type="button" id="show-answer" value="Show answer">  
+            <div class = "words">
+                <p class="word-ukr"></p>
+                <input type="text" id="word_eng" autocomplete="off">
+                <p class="answer"></p>
+                <div>
+                    <input type="button" id="check-answer" value="Check">
+                    <input type="button" id="show-answer" value="Show answer">  
+                </div>                
+                <input type="button" id="next" value="Next">
             </div>
-            
-            <input type="button" id="next" value="Next">            
+            <div class = "irregular_words">
+                <p class = "word-ukr"></p>
+                <input type="text" id="word-eng-f1" autocomplete="off">
+                <label for = "word-eng-f1" class = "answer"></label>
+                <input type="text" id="word-eng-f2" autocomplete="off">
+                <label for = "word-eng-f2" class = "answer"></label>
+                <input type="text" id="word-eng-f3" autocomplete="off">
+                <label for = "word-eng-f3" class = "answer"></label>
+                <div>
+                    <input type="button" id="check-answer-irregular" value="Check">
+                    <input type="button" id="show-answer-irregular" value="Show answer">
+                </div>
+                
+                <input type="button" id="next-irregular" value="Next">
+            </div>        
         </div>
         <div class="msg">
             <p class="result"></p>
